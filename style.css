@@ -1,0 +1,554 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background-image:linear-gradient(rgba(30, 26, 65, 0.8), rgba(30, 26, 65, 0.8)), url('download.jpg');
+  background-repeat: repeat;
+  background-size: 300px; 
+  background-attachment: fixed;
+  background-position: top left;
+}
+
+.icon {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#bunny {
+  position: absolute;
+  width: 800px;
+  top: 10px;        
+  left: -110px;      
+}
+
+#star {
+  position: absolute;
+  width: 110px;
+  top: 230px;        
+  left: 385px;      
+}
+#star2 {
+  position: absolute;
+  width: 90px;
+  top: 350px;        
+  left: 60px;      
+}
+
+#lily{
+  position: absolute;
+  width: 160px;
+  top: 210px;        
+  left: 1240px;      
+}
+#tootie{
+  position: absolute;
+  width: 900px;
+  top: 2900px;        
+  left: 450px;      
+}
+#udarealwao{
+  position: absolute;
+  width: 900px;
+  top: 4100px;        
+  left: 450px;      
+}
+#udarealbaddie{
+  position: absolute;
+  width: 900px;
+  top: 5300px;        
+  left: 450px;      
+}
+#daisy{
+  width: 190px;
+  position: absolute;
+  top: 400px;
+  left: 1650px;
+  z-index: 10;    
+}
+
+#cupcake{
+  position: absolute;
+  width: 1000px;
+  left: 450px;     
+}
+
+#blueberry {
+  position: absolute;
+  width: 90px;
+  top: 115px;        
+  left: 615px;  
+  z-index: 10;    
+}
+#spoderman {
+  position: absolute;
+  width: 250px;
+  top: -60px;        
+  left: 1060px;  
+  z-index: 10;    
+}
+
+#starbutton{
+  width: 300px;
+  position: absolute;
+  top: 400px;
+  left: 1250px;
+  z-index: 10;
+}
+#strawberry{
+  width: 500px;
+  position: absolute;
+  top: 140px;
+  left: 1400px;
+  z-index: 10;
+}
+
+.box:hover, .box2:hover , .box3:hover ,.comment-card:hover{
+  transform: translateY(-4px); 
+  box-shadow: 0 12px 30px rgba(208, 208, 214, 0.4); 
+  cursor: url('starcursor.png'), auto;
+}
+ 
+.box{
+  width: 230px;
+  height: 230px;
+  position: absolute;
+  top: 250px;
+  left: 600px;
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 45px;
+  border: 2px solid #ffffff; 
+  backdrop-filter: blur(4px); 
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);             
+  text-align: center;   
+  padding-top: 80px;
+  word-break: break-all;    
+  padding: 20px;           
+  box-sizing: border-box;
+  color: #333333;         
+  font-size: 16px;            
+  font-weight: 600;         
+  letter-spacing: 0.5px;   
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.box2{
+  width: 230px;
+  height: 230px;
+  position: absolute;
+  top: 530px;
+  left: 600px;
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 45px;
+  border: 2px solid #ffffff;
+  backdrop-filter: blur(4px); 
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);                
+  text-align: center;    
+  padding-top: 80px;
+  word-break: break-all;    
+  padding: 20px;           
+  box-sizing: border-box;
+  color: #333333;
+  font-size: 16px;            
+  font-weight: 600;         
+  letter-spacing: 0.5px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+
+.box3{
+  position: absolute;
+  top: 250px;               
+  left: 860px;          
+  width: 350px;            
+  height: 510px;            
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 45px;
+  border: 2px solid #ffffff;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  box-sizing: border-box;
+  font-weight: 600;
+  color: #000c44;
+  word-break: break-all;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+} 
+
+.header{
+  position: absolute;
+  top: 110px;               
+  left: 600px;             
+  width: 610px;          
+  height: 110px;     
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 45px;
+  border: 2px solid #ffffff;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 70px;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: #421b1b;           
+  font-size: 32px;          
+  font-family: sans-serif;   
+  font-weight: bold;
+  letter-spacing: 2px;       
+  margin: 0;               
+  text-shadow: 
+    0 0 4px #ffffff,       
+    0 0 10px #ffffff,        
+    0 0 20px #ffffff,     
+    0 0 40px rgba(255, 255, 255, 0.452);
+}
+
+.li {
+    color: #ffffff;
+    padding: 2px 8px; 
+    border-radius: 4px;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: top 0.2s ease, left 0.2s ease, background-color 0.2s ease;
+    width: fit-content; 
+}
+
+#li1:hover {
+    background-color: rgb(151, 27, 151);
+    top: -4px;
+    left: 8px;
+}
+#li2:hover {
+    background-color: rgb(127, 62, 173);
+    top: -4px;
+    left: 8px;
+}
+#li3:hover {
+    background-color: rgb(74, 74, 146);
+    top: -4px;
+    left: 8px;
+}
+#li4:hover {
+    background-color: rgb(50, 112, 50);
+    top: -4px;
+    left: 8px;
+}
+#li5:hover {
+    background-color:rgb(221, 221, 42);
+    top: -4px;
+    left: 8px;
+}
+#li6:hover {
+    background-color: rgb(194, 129, 32);
+    top: -4px;
+    left: 8px;
+}
+#li7:hover {
+    background-color: rgb(204, 65, 65);
+    top: -4px;
+    left: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+ 
+#cupcakee1{
+  width: 200px;
+}
+#meow1{
+  width: 200px;
+  position: absolute;
+  top:4064px;      
+  right: 1545px;      
+}
+
+
+#footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 6500px; 
+    background-color: rgba(29, 26, 63, 0.9); 
+    padding: 20px 0;
+    color: #ffffff;
+    font-size: 18px; 
+    text-align: center;
+    font-family: sans-serif;
+    box-sizing: border-box; 
+}
+
+#hamza{
+  position: absolute;
+  width: 300px;
+  top: 6100px;        
+  left: 750px; 
+  transition: filter 0.3s ease, transform 0.3s ease; 
+  cursor: pointer;
+}
+
+
+#hamza:hover {
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.8)); 
+    transform: scale(1.03); 
+}
+
+.star {
+  position: absolute;
+  top: 87px;     
+  right: 515px;    
+  font-size: 80px;
+  z-index: 100;    
+  pointer-events: none; 
+  animation: spin-star 5s linear infinite;
+}
+
+@keyframes spin-star {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.star2 {
+  position: absolute;
+  top: 1107px;     
+  right: 1615px;    
+  font-size: 80px;
+  z-index: 100;    
+  pointer-events: none; 
+  animation: spin-star 5s linear infinite;
+}
+
+@keyframes spin-star {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.star3 {
+  position: absolute;
+  top: 3007px;     
+  right: 1695px;    
+  font-size: 80px;
+  z-index: 100;    
+  pointer-events: none; 
+  animation: spin-star 5s linear infinite;
+}
+
+@keyframes spin-star {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.star4 {
+  position: absolute;
+  top: 4007px;     
+  right: 95px;    
+  font-size: 80px;
+  z-index: 100;    
+  pointer-events: none; 
+  animation: spin-star 5s linear infinite;
+}
+
+@keyframes spin-star {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.star5 {
+  position: absolute;
+  top: 1900px;     
+  left: 1615px;    
+  font-size: 60px;
+  z-index: 100;    
+  pointer-events: none; 
+  animation: spin-star 4s linear infinite;
+}
+
+@keyframes spin-star {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
+
+.comment-card {
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(5px);        
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  border-radius: 25px;               
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.comment-card {
+  position: absolute;
+  top: 490px;      
+  right: 230px;
+  width: 320px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  
+ 
+  border: 3px solid rgba(255, 255, 255, 0.8); 
+  border-radius: 40px; 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+
+.comment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25); 
+}
+
+
+.comment-card h3 {
+  margin: 0;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.comment-card textarea {
+  width: 100%;
+  height: 110px;
+  background: rgba(235, 235, 240, 0.9);
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+  resize: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333333;
+  outline: none;
+}
+
+.comment-card button {
+  width: 100%;
+  background: #ffffff;
+  color: #333333;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+.comment-card button:active span {
+  display: none;
+}
+
+.comment-card button:active::after {
+  content: "Sent:3";
+}
+
+.comment-card button:active {
+  transform: scale(0.98);
+  background-color: #e0fbee;
+}
+
+.cookie-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.cookie-checkbox {
+  display: none; /* Keeps the functionality hidden behind the scenes */
+}
+
+.cookie-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.cookie-label:hover {
+  transform: scale(1.1);
+}
+
+.cookie-emoji {
+  font-size: 45px;
+}
+
+.cookie-hint {
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.cookie-message {
+  position: absolute;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  text-align: center;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.cookie-message p {
+  margin: 0;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.cookie-checkbox:checked ~ .cookie-label {
+  display: none;
+}
+
+.cookie-checkbox:checked ~ .cookie-message {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
